@@ -1,0 +1,25 @@
+.nav-link{
+    color: white;
+}
+.enlacesInicio{
+    margin: 10px 15px ;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+} 
+.enlaces{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+.active{
+    border-bottom:2px solid white;
+    margin-bottom: 10px;
+}
+
+.containerCarrito{
+    display: flex;
+    margin-left: 20px;
+}

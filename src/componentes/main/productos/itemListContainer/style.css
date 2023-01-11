@@ -1,0 +1,18 @@
+section{
+    display: flex;
+    padding: 30px;
+}
+
+.conteiner__cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    padding: 40px 150px;
+
+}
+
+.conteiner-filter{
+    width: 600px;
+    margin-top: 50px;
+    
+}

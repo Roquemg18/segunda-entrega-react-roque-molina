@@ -1,0 +1,66 @@
+/*style ItemDetailContainer*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerDetail{
+    width: 100%;
+    height: 100%;
+    padding: 10% 25%;
+    display: flex;
+    background-color: pink;
+
+}
+.detailImg{
+    width: 450px;
+    height: 100%;
+    margin-right: 5%;
+}
+.detailImg img{
+    height: 450px;
+    border-radius: 0.8rem;
+}
+.detailInfo{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+}
+.detailInfo h1{
+    font-size: 52px;
+    margin-bottom:30px;
+    
+}
+.detailInfo p{
+    font-size: 25px;
+}
+.detailInfo span{
+    font-size: 32px;
+    margin: 10px 100% 10px 0;
+}
+
+.containerCantidad{
+    display: flex;
+    border-top: 1px solid black;
+    width: 300px;
+}
+.containerCantidad button{
+    width: 30px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+}
+.containerCantidad h3{
+    margin: 10px;
+    font-size: 30px;
+
+}
+.agregarCarrito{
+    background-color: black;
+
+}

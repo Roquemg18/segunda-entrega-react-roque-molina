@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    gap: 60%;
+    padding: 10px 60px;
+}
+header button{
+    width: 40px;
+    border-radius: 0.5rem;
+    background-color: black;
+    color: white;
+}
+.container-productos{
+    width: 100%;
+    height: 600px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.container-info-compra{
+    display: flex;
+    gap: 50%;
+    padding: 10px 60px;
+}
+.container-total{
+    display: flex;
+    gap: 10px;
+}
+.container-total h1{
+
+}
+.container-total span{
+    font-size: 35px;
+}
+.container-comprar button{
+    width: 200px;
+    height: 100%;
+    border-radius: 1rem;
+    font-size: 25px;
+}

@@ -1,0 +1,74 @@
+[
+    {
+        "id": "globosCristal",
+        "nombre": "globos Cristal",
+        "precio": 580,
+        "categoria": "globos",
+        "logo": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ-hjghcK_LczyFXJPUgjByhhG56lb_-oMZVwPRg9Vponh2BLM-",
+        "cantidad": 1
+    },
+    {
+        "id": "velaEstrella",
+        "nombre": "vela estrella",
+        "precio": 320,
+        "categoria": "velas",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7yBqTfQKm8Qsy-C4J2bumjirZYu79VOOEFMJYrzFYB1YU2lESOzog26j5DqcF_qMqczM&usqp=CAU",
+        "cantidad": 1
+    },
+    {
+        "id": "nieveLoca",
+        "nombre": "nieve loca",
+        "precio": 1500,
+        "categoria": "carioca",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiK-tMca-fNCVF7fcnaMN8Fo9t8NUWm02UEM9kIlmbDf_qtvf0",
+        "cantidad": 1
+    },
+    {
+        "id": "globoPerlado",
+        "nombre": "globo perlado",
+        "precio": 1400,
+        "categoria": "globos",
+        "logo": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ25f1uflKh8KNDRWemK1zRFynH6b_737DHOjwm0yOpmlSs8Wz2",
+        "cantidad": 1
+    },
+    {
+        "id": "setDeGlobos",
+        "nombre": "set de globos",
+        "precio": 1100,
+        "categoria": "globos",
+        "logo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSV4hSQ5YqYqmdxcux8SQMpTkG0AvPqUoarvPGm_QenHXc5Byip",
+        "cantidad": 1
+    },
+    {
+        "id": "bañoRepostero",
+        "nombre": "baño repostero",
+        "precio": 300,
+        "categoria": "reposteria comestible",
+        "logo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSoqlE_RLY_db6I93yfIpoMZFY8OQuEheasn0c7Ef0CDvOW2pFW",
+        "cantidad": 1
+    },
+    {
+        "id": "disfrazDePolicia",
+        "nombre": "disfraz de polica",
+        "precio": 6000,
+        "categoria": "disfraces",
+        "logo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS49Mpw4B0gtlGdvxx3ObDdCxJTSKWxpIvg1xLHXZhTQ5pQJRkg",
+        "cantidad": 1
+    },
+    {
+        "id": "adornoDePlimPlim",
+        "nombre": "adorno de plim plim",
+        "precio": 500,
+        "categoria": "adornos",
+        "logo": "https://i.pinimg.com/236x/60/f6/44/60f64470fc7ba02b6670f6160bb7990c--circus-theme-birthday-ideas.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": "mangaDeReposteria",
+        "nombre": "manga de reposteria",
+        "precio": 1600,
+        "categoria": "reposteria",
+        "logo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQzoojXeEy6os0jdjisCy7E9-jbe56zBJ4bCJ4TNJYiQEBA9-eF",
+        "cantidad": 1
+    }
+]
