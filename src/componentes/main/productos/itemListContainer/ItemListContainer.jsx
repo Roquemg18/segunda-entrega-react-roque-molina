@@ -21,7 +21,7 @@ function ItemListContainer (props){
 
                 setTimeout(()=>{
                     res(prodFilter)
-                },2000)
+                },500)
             })
         }
         traerProductos()

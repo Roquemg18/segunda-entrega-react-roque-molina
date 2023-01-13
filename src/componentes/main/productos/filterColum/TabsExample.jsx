@@ -21,6 +21,13 @@ function TabsExample() {
         <li>
           <Link to="/productos/reposteria" className='link-category'>Reposteria</Link>
         </li>
+        <li>
+          <Link to="/productos/adornos" className='link-category'>Adornos de torta</Link>
+        </li>
+        <li>
+          <Link to="/productos/carioca" className='link-category'>Carioca</Link>
+        </li>
+        
       </ul>
     </div>
   );

@@ -7,48 +7,88 @@
 .container{
     width: 100%;
     height: 100%;
-    padding:12% 30%;
+    padding:6% 15%;
+    background-color: white;
 }
-
-
-.container-form{
+.container-buttons{
+    width: 100%;
+    height: 80px;
+    padding: 10px 80px;
+    margin-left: 100px;
+}
+.container-buttons a{
+    background-color: #DDA0DD;
     width: 300px;
-    height: 500px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    padding:10px 25px;
+}
+.container-buttons a:hover{
+    border-radius: 0.8rem;
     background-color: pink;
+}
+.container-form{
+    width: 800px;
+    height: 100%;
+    background-color: #DDA0DD;
     border-radius: 0.5rem;
-    padding: 10px;
+    padding: 20px;
+
 }
 h2{
     margin-left: 70px;
 }
-form{
-    margin-left: 40px;
+.form-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
 }
-form input{
+.container-inputs input{
+    width: 400px;
+    height: 35px;
     display: flex;
     flex-direction: column;
     margin: 10px;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     padding-left: 10px;
+    border: none;
 }
-form input:hover{
-    border: solid pink;
+.container-inputs input:hover{
+    border: 4px solid pink;
 }
-form label{
+
+.form-register label{
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 18px;
+    font-size: 22px;
 }
 .enviar{
-    width: 190px;
-    border: 1px solid white;
+    width: 400px;
+    height: 35px;
+    border: none;
+    border-radius: 0.8rem;
     color: black;
-    font-size: 20px;
-    padding: 0 60px;
+    font-size: 25px;
+    padding-left: 10px;
+    background-color: pink;
+    margin-top: 20px;
 }
 .enviar:hover{
-    background-color: pink;
+    background-color: #fe81b7;
+    color: black;
+}
+select{
+    width: 200px;
+    height: 35px;
+    border-radius: 1rem;
 }
 select:hover{
-    border: solid pink;
+    border: 4px solid pink;
 }
