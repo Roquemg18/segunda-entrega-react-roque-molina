@@ -2,7 +2,6 @@ import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 import './style.css'
 
-
 function Cards({items}) {
 
 return (
@@ -15,9 +14,8 @@ return (
         <Card.Body className="container-info-card">
             <Card.Title >{item.nombre } </Card.Title> 
             <Card.Title >{"$" + item.precio}</Card.Title>
-
             <Link className="verMasButton" to={`/detail/${item.id}`}>Ver mas</Link>
-            <Link className="verMasButton" to={`/detail/${item.id}`}>agregar al carrito</Link>
+
         </Card.Body>
     </Card>
  )

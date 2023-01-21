@@ -17,22 +17,21 @@ header button{
 }
 .container-productos{
     width: 100%;
-    height: 600px;
+    min-height: 380px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    padding: 20px 60px;
 }
 .container-info-compra{
     display: flex;
-    gap: 50%;
+    gap: 48%;
     padding: 10px 60px;
 }
 .container-total{
     display: flex;
     gap: 10px;
 }
-.container-total h1{
 
-}
 .container-total span{
     font-size: 35px;
 }
@@ -41,4 +40,51 @@ header button{
     height: 100%;
     border-radius: 1rem;
     font-size: 25px;
+}
+.container-detail-cart{
+    display: flex;
+    gap: 9%;
+}
+.container-detail-cart :first-child{
+    margin-left: 140px;
+}
+/*style itemCart*/
+.container-img img{
+    width: 100px;
+    height: 100px;
+}
+.container-cart-card{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    
+}
+.info-card{
+    width: 100%;
+    display: flex;
+    gap: 7%;
+    
+    margin-top: 30px;
+}
+.cantidad{
+    margin-right:120px;
+}
+.precio{
+    width: 60px;
+    margin-right: 80px;
+}
+.info-card button{
+    width: 40px;
+    height: 50px;   
+    border: none;
+    background-color: white;
+    color: black;
+    
+}
+.info-card  svg{
+    font-size: 42px;
+}
+.container-nombre{
+    width: 220px;
 }

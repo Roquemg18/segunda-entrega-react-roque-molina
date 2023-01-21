@@ -2,31 +2,34 @@
 .conainer-card{
     width: 250px;
 }
-
+.conainer-card:hover{
+    box-shadow: 4px 4px 8px 8px black;
+}
 .card-img{
     max-height: 250px;
     border-bottom: 1px solid black;
 }
 
 .verMasButton{
+
     text-decoration: none;
     color: white;
     background-color: black;
     border-radius: 0.7rem;
-    padding: 10px;
+    padding: 10px 40px;
+    margin-left: 30px;
     
 
 }
-.container-info-card div:first-child{
-    font-size: 28px;
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif 
-}
+
 .container-info-card div{
     margin: 20px 0;
     font-size: 25px;
     font-weight: bold;
+    margin-left: 50px;
 }
-.container-info-card a{
-    font-size: 14px;
-    margin-left: 5px;
+.container-info-card div:first-child{
+    font-size: 28px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+    margin-left: 0;
 }

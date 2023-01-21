@@ -6,7 +6,7 @@ function Nosotros() {
     return(
         <main>
             <div className='container-nosotros'>
-                <div className='container-img'>
+                <div className='container-nosotros-img'>
                     <img src="https://images.evisos.com.ar/2009/07/16/cotilloacuten_4cb35ce082_3.jpg" alt="" />
                 </div>
                 <div className='container-text'>

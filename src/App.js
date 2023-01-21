@@ -9,14 +9,16 @@ import ItemDetailContainer from './componentes/main/productos/itemDetailContaine
 import Nosotros from './componentes/main/nosotros/Nosotros';
 import Register from './componentes/main/login/Register';
 import Carrito from './componentes/main/carrito/Carrito';
+import CartProvider from './context/CartContext';
 
 
 
 function App() {
   return (
     <BrowserRouter>
-      <NavBar/>
-      <Routes>
+      <CartProvider>
+        <NavBar/>
+        <Routes>
         <Route
           path="/"
           element={
@@ -54,10 +56,12 @@ function App() {
       path='/carrito'
       element={<Carrito/>}
       />
-      </Routes>
+        </Routes>
+      </CartProvider>
       <Footer/>
     </BrowserRouter>
   );
 }
+
 
 export default App;

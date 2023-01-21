@@ -4,9 +4,11 @@
     padding: 10% 15%;
     display: flex;
 }
-.container-img img{
+.container-nosotros-img img{
     border-radius: 1rem;
     margin-right: 20px;
+    width: 450px;
+    height: 350px;
 }
 .container-text {
     max-width: 500px;
