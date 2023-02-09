@@ -2,14 +2,14 @@ import { useForm } from 'react-hook-form'
 import edadValidator from './validators';
 import './register.css'
 import { Link } from 'react-router-dom';
-
-function Register() {
+function Register(props) {
 
     const {register,formState:{errors}, handleSubmit} = useForm()
 
     const onSubmit = (data)=>{
-        console.log(data);
-    }
+        
+        props.setUsuario(true)
+    } 
 
     return(
         <main className='container-register'>
@@ -79,7 +79,7 @@ function Register() {
                         </select>
                     </div>
                 </div>
-                <input className='enviar' type="submit" onChange={()=> onSubmit()}/>
+                <input className='enviar' type="submit" />
                 </form>
             </div>
         </main>

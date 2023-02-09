@@ -5,13 +5,17 @@ import Register from './Register'
 
 const LogOut = () => {
     const [usuario, setUsuario]= useState(false)
+
+    const logOut = ()=>{
+        setUsuario(false)
+    }
     return (
     <div>
         {usuario 
         ?<div className='containerLogout'>
-            <Button>cerrar secion</Button>
+            <Button onClick={()=>logOut()}>cerrar secion</Button>
         </div> 
-        : <Register/>}
+        : <Register setUsuario={setUsuario}/>}
     </div>
     )
 }

@@ -3,13 +3,40 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from '@fortawesome/free-solid-svg-icons';
 import ItemCart from './ItemCart'
 import { useCartContext } from '../../../context/CartContext';
-
+import { serverTimestamp,addDoc } from 'firebase/firestore';
+import {comprasCollection} from '../../../firebaseConfig'
+import { toast } from "react-toastify";
 
 
 function Carrito() {
 
     const {cart,totalPrice,clearCart,} = useCartContext()
     
+
+    const handlCompra = () => {
+
+        const compra = {
+            usuario : {
+                nombre:"cliente1",
+                email:"cliente1@gmail.com"
+            },
+            carrito: cart,
+            fecha: serverTimestamp(),
+            ticket : Math.random(100)
+        }
+        
+        const pedido = addDoc(comprasCollection, compra)
+
+        pedido
+            .then((res)=>{
+                toast.success("Compra realizada")
+            })
+            .catch((error)=>{
+                toast.error("A ocurrido un error, vuelva a intentarlo")
+            })
+            clearCart()
+    }
+
     return(
 
         <div container-carrito>
@@ -31,7 +58,7 @@ function Carrito() {
                     <span>{totalPrice(cart)}</span>
                 </div>
                 <div className='container-comprar'>
-                    <button>Comprar</button>
+                    <button onClick={()=>{handlCompra()}}>Comprar</button>
                 </div>
             </div>
         </div>
