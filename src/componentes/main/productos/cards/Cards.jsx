@@ -5,7 +5,7 @@ import './style.css'
 function Cards({items}) {
 
 return (
-    <>
+    <div className="conteiner__cards">
         {items.map(function (item){
             return(
     <Card key={item.id}  className="conainer-card">
@@ -20,7 +20,7 @@ return (
     </Card>
  )
         })}
-    </>
+    </div>
 )
     }
     
