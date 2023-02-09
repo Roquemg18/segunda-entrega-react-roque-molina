@@ -26,14 +26,14 @@ agregar o eliminar productos del carrito, vaciar carrito, ver de detalle del pro
 Install my-project with npm
 
 ```bash
-  > npm clone https://github.com/Roquemg18/segunda-entrega-react-roque-molina.git
+  > git clone https://github.com/Roquemg18/segunda-entrega-react-roque-molina.git
   > cd my-segunda-entrega-react-roque-molina
-  > npm Install o npm Install (nombre de la tegnologia a Instalar)
+  > npm Install
   > npm start
 ```
 
 ## Link Diploy 
-...
+...segunda-entrega-react-roque-molina-it08aqvrc-roquemg18.vercel.app
 ## Proximas funciones 
 * Register/Login conectado a firebase
 * Mejoras en el css de la pagina Home
