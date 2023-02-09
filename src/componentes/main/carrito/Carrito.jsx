@@ -36,7 +36,7 @@ function Carrito() {
             })
             clearCart()
     }
-
+ 
     return(
 
         <div container-carrito>
@@ -58,7 +58,7 @@ function Carrito() {
                     <span>{totalPrice(cart)}</span>
                 </div>
                 <div className='container-comprar'>
-                    <button onClick={()=>{handlCompra()}}>Comprar</button>
+                    <button  onClick={()=>{handlCompra()}}>Comprar</button>
                 </div>
             </div>
         </div>

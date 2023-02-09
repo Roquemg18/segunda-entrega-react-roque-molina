@@ -21,7 +21,7 @@ const ItemCart = ({products}) => {
                     </div>
                     <h3 className='cantidad'>{product.quantity}</h3>
                     <h3 className='precio'> ${product.precio * product.quantity}</h3>
-                    <button onClick={()=>removeProduct()}><FontAwesomeIcon icon={faCircleXmark}></FontAwesomeIcon></button>
+                    <button onClick={()=>removeProduct(product.id)}><FontAwesomeIcon icon={faCircleXmark}></FontAwesomeIcon></button>
                 </div>
             </div>
             )

@@ -27,8 +27,8 @@ Install my-project with npm
 
 ```bash
   > git clone https://github.com/Roquemg18/segunda-entrega-react-roque-molina.git
-  > cd my-segunda-entrega-react-roque-molina
-  > npm Install
+  > cd segunda-entrega-react-roque-molina
+  > npm I / install 
   > npm start
 ```
 
