@@ -7,9 +7,13 @@ import PagHome from './componentes/main/home/PagHome';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ItemDetailContainer from './componentes/main/productos/itemDetailContainer/ItemDetailContainer';
 import Nosotros from './componentes/main/nosotros/Nosotros';
-import Register from './componentes/main/login/Register';
+import LogOut from './componentes/main/login/LogOut';
+import Login from './componentes/main/login/Login'
 import Carrito from './componentes/main/carrito/Carrito';
 import CartProvider from './context/CartContext';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 
@@ -50,7 +54,11 @@ function App() {
 
       <Route
       path='/register'
-      element={<Register/>}
+      element={<LogOut/>}
+      />
+      <Route
+      path='/login'
+      element={<Login/>}
       />
       <Route
       path='/carrito'
@@ -59,6 +67,7 @@ function App() {
         </Routes>
       </CartProvider>
       <Footer/>
+      <ToastContainer/>
     </BrowserRouter>
   );
 }

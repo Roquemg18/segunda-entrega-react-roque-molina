@@ -30,6 +30,7 @@
 }
 .container-info-card div:first-child{
     font-size: 28px;
+    height: 60px;
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
     margin-left: 0;
 }

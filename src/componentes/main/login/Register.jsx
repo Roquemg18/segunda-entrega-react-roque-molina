@@ -12,11 +12,11 @@ function Register() {
     }
 
     return(
-        <main className='container'>
+        <main className='container-register'>
             <div className='container-form'>
                 <div className='container-buttons'> 
                     <Link>Registro</Link>
-                    <Link>Iniciar secion</Link>
+                    <Link to="/login">Iniciar secion</Link>
                 </div>
                 <form className='form-register' onSubmit={ handleSubmit (onSubmit) }>
                 <div className='container-inputs'>
@@ -53,6 +53,24 @@ function Register() {
                         {errors.edad && <p>La edad debe ser entre 18 y 65</p>}
                     </div>
                     <div>
+                        <label>Contraseña</label>
+                        <input type="password" {...register('password',{
+                            required:true
+                            /* pattern: /^[A-Z]{1,2}\s\d{4}\s([B-D]|[F-H]|[J-N]|[P-T]|[V-Z]){3}$/ */
+                        })}/>
+{/*                         {errors.password?.type==='pattern' && <ul> 
+                            <li>La contraseña no cumple con los siguientes requisitos:</li>
+                            <li>Minimo 8 caracteres</li>
+                            <li>Maximo 15</li>
+                            <li>Al menos una letra mayúscula</li>
+                            <li>Al menos una letra minucula</li>
+                            <li>Al menos un dígito</li>
+                            <li>No espacios en blanco</li>
+                            <li>Al menos 1 caracter especial</li>
+                        </ul>} */}
+                        {errors.password?.type==='required' && <p>el campo de contraseña es necesario</p>}
+                    </div>
+                    <div>
                         <label>Pais</label>
                         <select >
                             <option>Argentina</option>
@@ -61,7 +79,7 @@ function Register() {
                         </select>
                     </div>
                 </div>
-                <input className='enviar' type="submit" />
+                <input className='enviar' type="submit" onChange={()=> onSubmit()}/>
                 </form>
             </div>
         </main>

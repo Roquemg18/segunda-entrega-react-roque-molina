@@ -8,7 +8,7 @@ import { useCartContext } from '../../../context/CartContext';
 
 function Carrito() {
 
-    const {cart,totalPrice,clearCart} = useCartContext()
+    const {cart,totalPrice,clearCart,} = useCartContext()
     
     return(
 

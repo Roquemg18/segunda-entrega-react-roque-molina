@@ -12,7 +12,6 @@ function CartProvider({children}) {
 
     const removeProduct = (id)=> setCart(cart.filter(product=> product.id !== id))
 
-    console.log("carrito",cart);
 
     const addProduct = (product, newQuantity) =>{
         const newCart = cart.filter (prod => prod.id !== product.id);

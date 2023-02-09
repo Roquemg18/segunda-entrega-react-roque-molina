@@ -11,9 +11,6 @@ function PagHome (){
                     <h1>Los mejores globos y articulos para fiestas</h1>
                     <h5>encontra la mas amplia seleccion de adornos para fiestas familiares</h5>
                 </div>
-                <div className="container-img">
-                    <img src="" alt="" />
-                </div>
             </section>
             
         </main>
